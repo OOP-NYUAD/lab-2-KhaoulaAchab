@@ -23,14 +23,14 @@ private:
 public:
     // Default constructor.
     // Initialize 'balance' to 0.
-    Account();
+    Account(){balance=0;}
 
     // Parameterized constructor.
     // Initialize 'balance' with the provided 'initialBalance'.
-    Account(double initialBalance);
+    Account(double initialBalance){balance=initialBalance;}
 
     // Getter function to return the current balance.
-    double getBalance();
+    double getBalance();{return Balance;}
 
     // Setter function to set the balance to a new value.
     void setBalance(double newBalance);
