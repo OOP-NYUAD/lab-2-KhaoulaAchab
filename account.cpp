@@ -14,7 +14,7 @@
 
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
-
+using namespace std;
 class Account {
 private:
     // Private member variable to store the balance.
@@ -34,7 +34,7 @@ public:
 
     // Getter function to return the current balance.
     // TODO: Implement the 'getBalance' function.
-    double getBalance(){return Balance;}
+    double getBalance(){return balance;}
 
     // Setter function to set the balance to a new value.
     // TODO: Implement the 'setBalance' function.
