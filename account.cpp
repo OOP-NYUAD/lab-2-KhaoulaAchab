@@ -47,7 +47,8 @@ public:
 
     // Function to withdraw an amount from the account.
     // TODO: Implement the 'withdraw' function.
-    void withdraw(double amount){balance-=amount;}
+    void withdraw(double amount){if (balance<amount){cout << "Insufficient balance"<<endl;}
+                                else {balance-=amount;}}
 
     // Destructor.
     // Display a message indicating the account is being destroyed.
